@@ -1,5 +1,11 @@
+import RemoteHeaderComponent from "@/components/Header";
+import { Fragment } from "react";
+
 export default function Home() {
   return (
-    <div>Hello World</div>
+    <Fragment>
+      <RemoteHeaderComponent />
+      Hello World
+    </Fragment>
   )
 }
